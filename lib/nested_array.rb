@@ -31,9 +31,8 @@ matrix_lookup=matrix[1][1]
  matrix_lookup
 end
 
+
 def matrix_update(matrix, row, column, new_value)
-
-matrix_update=matrix(1,2,"Lemons")
-matrix_update
-
+  matrix[row][column]=new_value
+  matrix_update[1][1]["Lemons"]
 end
