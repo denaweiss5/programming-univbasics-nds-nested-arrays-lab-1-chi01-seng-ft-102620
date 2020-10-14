@@ -37,5 +37,5 @@ def matrix_update(matrix, row, column, new_value)
 row=1
 column=2
 new_value="Lemons"
-matrix_update
+
 end
